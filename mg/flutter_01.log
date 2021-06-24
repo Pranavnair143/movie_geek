@@ -1,0 +1,55 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --target lib\main.dart -d 47d9e47c7d44 --dart-define=flutter.inspector.structuredErrors=true --start-paused --web-server-debug-protocol ws --web-allow-expose-url --devtools-server-address http://127.0.0.1:9100/
+
+## exception
+
+RPCError: getIsolate: (112) Service has disappeared
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 2.0.2, on Microsoft Windows [Version 10.0.19042.985], locale en-IN)
+    • Flutter version 2.0.2 at C:\fsrc\flutter
+    • Framework revision 8962f6dc68 (3 months ago), 2021-03-11 13:22:20 -0800
+    • Engine revision 5d8bf811b3
+    • Dart version 2.12.1
+
+[!] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    • Android SDK at C:\fsrc\android-sdk
+    • Platform android-30, build-tools 30.0.3
+    • ANDROID_SDK_ROOT = C:\fsrc\android-sdk
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+    ✗ Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/docs/get-started/install/windows#android-setup for more details.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[✓] Android Studio (version 4.1.0)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+
+[✓] VS Code (version 1.56.2)
+    • VS Code at C:\Users\prnav\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.22.0
+
+[✓] Connected device (3 available)
+    • Redmi 4 (mobile) • 47d9e47c7d44 • android-arm64  • Android 7.1.2 (API 25)
+    • Chrome (web)     • chrome       • web-javascript • Google Chrome 90.0.4430.212
+    • Edge (web)       • edge         • web-javascript • Microsoft Edge 91.0.864.37
+
+! Doctor found issues in 1 category.
+```
